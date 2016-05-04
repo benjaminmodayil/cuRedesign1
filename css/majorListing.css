@@ -1,0 +1,90 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.list-col-1 {
+  float: left;
+  width: 76.5625%;
+  list-style: none;
+  padding-top: 30px; }
+  .list-col-1 h1 {
+    color: #005288;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-indent: 20px; }
+  .list-col-1 .deptMajor {
+    height: 300px; }
+  .list-col-1 .yellowBar {
+    background-color: #fdb813;
+    width: 95.40816%;
+    height: 64px;
+    margin-bottom: 15px; }
+    .list-col-1 .yellowBar h2 {
+      display: inline-block;
+      text-indent: 40px;
+      color: #005288;
+      font-size: 25px;
+      padding-top: 10px; }
+    .list-col-1 .yellowBar a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #0173bd;
+      color: white;
+      width: 130px;
+      height: 50px;
+      text-align: center;
+      padding-top: 14px;
+      float: right; }
+  .list-col-1 .blueBar {
+    width: 95.40816%;
+    height: 64px;
+    margin-bottom: 15px;
+    background-color: #005288; }
+    .list-col-1 .blueBar h2 {
+      color: white;
+      display: inline-block; }
+    .list-col-1 .blueBar a {
+      background-color: #fdb813;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      width: 130px;
+      height: 50px;
+      text-align: center;
+      padding-top: 14px;
+      float: right; }
+  .list-col-1 .major-col-1 {
+    float: left;
+    width: 145px;
+    margin-left: 100px; }
+    .list-col-1 .major-col-1 li {
+      list-style: none; }
+      .list-col-1 .major-col-1 li a {
+        text-decoration: none; }
+  .list-col-1 .minor-col-2 {
+    float: left;
+    width: 150px;
+    margin-left: 100px; }
+    .list-col-1 .minor-col-2 li {
+      list-style: none; }
+      .list-col-1 .minor-col-2 li a {
+        text-decoration: none; }
+
+.list-col-2 {
+  float: left;
+  width: 300px;
+  background-color: #fdb813;
+  padding: 30px; }
+  .list-col-2 ul {
+    list-style: none;
+    color: #005288;
+    font-size: 25px;
+    font-weight: bold; }
+    .list-col-2 ul li {
+      padding-bottom: 10px;
+      font-size: 18px; }
+      .list-col-2 ul li a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #0173bd; }

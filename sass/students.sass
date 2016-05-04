@@ -1,0 +1,244 @@
+$xsmall: 320px
+$small: 768px
+$medium: 1024px
+$large: 1200px
+
+$pt: 'PT Sans', sans-serif
+
+$blue: #005288
+$darkBlue: #00375c
+$linkBlue: #0173bd
+$yellow: #fdb813
+$darkYellow: #d49600
+$textColor: #454545
+
+
+.clearfix
+	&:after
+    		content: ""
+    		display: table
+    		clear: both
+
+.studentHeader
+	width: percentage(1200px/1200px)
+	@extend .clearfix
+
+	.showSmall
+		@media (min-width: $small)
+			display: inline-block
+		@media (max-width: $small)
+			margin-top: 32px
+			color: $blue
+		@media (min-width: $large)
+			display: none
+	.hideSmall
+		@media (min-width: $small)
+			display: none
+
+
+	.col-1
+		background-image: url("../images/cuStudent/worship.png")
+		width: percentage(983px / 1280px)
+		background-size: contain
+		background-repeat: no-repeat
+		height: 0
+		padding-top: 26.9%
+		max-width: 100%
+		float: left
+
+		@media (max-width: $small)
+			margin-top: 20px
+			width: 100%
+			padding-top: 35.2%
+			margin-bottom: 100px
+
+
+
+	.col-2
+		float: left
+		width: percentage(280px/1280px)
+
+		padding-left: 10px
+		@media (max-width: $small)
+			display: none
+		ul
+			text-decoration: none
+			color: $darkBlue
+			padding-left: 20px
+			margin-top: 20px
+			font-size: 25px
+			li
+				list-style: none
+				a
+					color: $linkBlue
+					text-decoration: none
+					padding-left: 10px
+					font-size: 20px
+
+.lifeAtCu
+	margin-top: 55px
+	width: percentage(1280px/1280px)
+	@extend .clearfix
+	.col-1
+		float: left
+		width: percentage(645px /1280px)
+		padding-left: 40px
+		box-sizing: border-box
+		@media (max-width: $small)
+			width: 100%
+			text-align: center
+			padding-left: 10px
+			margin: 0 auto
+			float: none
+			clear: both
+
+			p
+				width: 100%
+				padding: 0px
+				margin: 0 auto
+		h2
+			color: $blue
+		p
+			width: percentage(510px / 645px)
+			padding: 0px
+		a.button
+			clear: both
+			width: 100px
+			background-color: $blue
+			color: white
+			text-decoration: none
+			padding: 10px 20px
+			border-radius: 5px
+			width: percentage(355px/1280px)
+			margin-top: 40px
+			margin-bottom: 50px
+			display: inline-block
+			@media (max-width: $small)
+				width: percentage(255px / 768px)
+	.col-2
+		background-image: url("../images/cuStudent/chapel.png")
+		width: percentage(630px / 1280px)
+		background-size: contain
+		background-repeat: no-repeat
+		height: 0
+		padding-top: 25.9%
+		max-width: 100%
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			padding-top: 55%
+			float: none
+			clear: both
+
+.equipping
+	width: 100%
+	@extend .clearfix
+
+	.col-1
+		margin: 0px
+		width: percentage(600px / 1200px)
+		box-sizing: border-box
+		background-image: url("../images/cuStudent/ville.png")
+		background-size: contain
+		background-repeat: no-repeat
+		height: 0
+		padding-top: 25%
+		max-width: 100%
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			padding-top: 57%
+
+	.col-2
+		float: left
+		width: percentage(600px /1200px)
+		padding-left: 40px
+		box-sizing: border-box
+		@media (max-width: $small)
+			width: 100%
+			text-align: center
+			padding-left: 10px
+			margin: 0 auto
+			float: none
+			clear: both
+
+			p
+				width: 100%
+				padding: 0px
+				margin: 0 auto
+		h2
+			color: $blue
+		p
+			width: percentage(510px / 645px)
+			padding: 0px
+		a.button
+			clear: both
+			width: 100px
+			background-color: $blue
+			color: white
+			text-decoration: none
+			padding: 10px 20px
+			border-radius: 5px
+			width: percentage(355px/1280px)
+			margin-top: 40px
+			margin-bottom: 50px
+			display: inline-block
+			@media (max-width: $small)
+				width: percentage(255px / 768px)
+.ministries
+	width: 100%
+	@extend .clearfix
+	margin-bottom: 62px
+	.col-1
+		float: left
+		width: percentage(600px /1200px)
+		padding-left: 40px
+		box-sizing: border-box
+		@media (max-width: $small)
+			width: 100%
+			text-align: center
+			padding-left: 10px
+			margin: 0 auto
+			float: none
+			clear: both
+
+			p
+				width: 100%
+				padding: 0px
+				margin: 0 auto
+		h2
+			color: $blue
+		p
+			width: percentage(510px / 645px)
+			padding: 0px
+		a.button
+			clear: both
+			width: 100px
+			background-color: $blue
+			color: white
+			text-decoration: none
+			padding: 10px 20px
+			border-radius: 5px
+			width: percentage(355px/1200px)
+			margin-top: 40px
+			margin-bottom: 50px
+			display: inline-block
+			box-sizing: border-box
+			@media (max-width: $small)
+				width: percentage(255px / 768px)
+	.col-2
+		background-image: url("../images/cuStudent/africa.png")
+		background-size: contain
+		background-repeat: no-repeat
+		float: left
+		width: percentage(600px / 1200px)
+		background-size: contain
+		background-repeat: no-repeat
+		height: 0
+		padding-top: 21%
+		max-width: 100%
+
+		@media (max-width: $small)
+			padding-top: 30%
+			float: none
+			width: percentage(768px/ 768px)

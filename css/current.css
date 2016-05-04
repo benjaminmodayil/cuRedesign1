@@ -1,0 +1,198 @@
+.clearfix:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.currentHeader {
+  width: 100%; }
+  .currentHeader .current-col-1 {
+    background-image: url("../images/cucurrent/heartsong.png");
+    width: 70.3125%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 24.4%;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left; }
+    @media (max-width: 768px) {
+      .currentHeader .current-col-1 {
+        padding-top: 50.4%;
+        clear: both;
+        width: 100%; } }
+  .currentHeader .current-col-2 {
+    width: 21.09375%;
+    float: left; }
+    @media (max-width: 768px) {
+      .currentHeader .current-col-2 {
+        width: 100%;
+        clear: left;
+        float: none;
+        background-color: #fdb813;
+        padding: 40px 0;
+        margin-bottom: 50px; } }
+    .currentHeader .current-col-2 ul {
+      text-decoration: none;
+      font-size: 1.4em;
+      color: #00375c;
+      padding-left: 20px;
+      margin-top: 20px; }
+      @media (max-width: 768px) {
+        .currentHeader .current-col-2 ul {
+          width: 100%;
+          text-align: center; } }
+      .currentHeader .current-col-2 ul li {
+        color: #0173bd;
+        text-decoration: none;
+        padding-left: 10px;
+        list-style: none;
+        font-size: 20px; }
+
+.currentBodyLeft {
+  clear: both;
+  float: left;
+  width: 42.1875%;
+  height: 100%;
+  background-color: #fdb813;
+  box-sizing: border-box;
+  padding-left: 40px; }
+  @media (max-width: 768px) {
+    .currentBodyLeft {
+      width: 100%;
+      padding-left: 0px; } }
+  .currentBodyLeft h2 {
+    color: #005288; }
+    @media (max-width: 768px) {
+      .currentBodyLeft h2 {
+        padding-left: 40px;
+        margin-top: 26px;
+        margin-bottom: 40px; }
+        .currentBodyLeft h2 ~ h2 {
+          display: none; } }
+  .currentBodyLeft p {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 440px;
+    padding-left: 100px;
+    float: left; }
+  .currentBodyLeft img {
+    padding-left: none; }
+    @media (max-width: 768px) {
+      .currentBodyLeft img {
+        width: 85%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px; } }
+  .currentBodyLeft ul {
+    text-decoration: none;
+    list-style: none; }
+    @media (max-width: 768px) {
+      .currentBodyLeft ul {
+        display: none; } }
+    .currentBodyLeft ul a {
+      text-decoration: none; }
+
+.currentBodyRight {
+  float: right;
+  width: 54.6875%;
+  box-sizing: border-box;
+  padding-left: 50px; }
+  @media (max-width: 768px) {
+    .currentBodyRight {
+      width: 100%; } }
+  .currentBodyRight .events {
+    margin-top: 40px;
+    float: left;
+    margin-bottom: 68px; }
+    .currentBodyRight .events h3 {
+      display: block;
+      color: #005288;
+      padding: 0px; }
+    .currentBodyRight .events ul {
+      float: left;
+      color: #005288;
+      width: 27.34375%;
+      padding-right: 80px; }
+      .currentBodyRight .events ul li {
+        color: black;
+        list-style-image: url("../images/cudept/circle.png"); }
+  .currentBodyRight .otherLinks {
+    clear: both;
+    width: 100%; }
+    @media (max-width: 768px) {
+      .currentBodyRight .otherLinks {
+        margin-top: 78px;
+        margin-bottom: 120px; }
+        .currentBodyRight .otherLinks :nth-child(2) {
+          display: none; }
+        .currentBodyRight .otherLinks :nth-child(3) {
+          display: none; } }
+    .currentBodyRight .otherLinks ul.sectionLists {
+      color: #005288;
+      float: left;
+      width: 19.53125%; }
+      @media (max-width: 768px) {
+        .currentBodyRight .otherLinks ul.sectionLists {
+          width: 100%; } }
+      .currentBodyRight .otherLinks ul.sectionLists li {
+        list-style: none;
+        width: 7.8125%; }
+        .currentBodyRight .otherLinks ul.sectionLists li a {
+          text-decoration: none;
+          color: #0173bd; }
+  .currentBodyRight .follow {
+    margin-top: 300px;
+    float: none;
+    clear: both; }
+    @media (max-width: 768px) {
+      .currentBodyRight .follow {
+        width: 100%;
+        margin-bottom: 38px; } }
+    .currentBodyRight .follow p {
+      color: #005288;
+      margin-bottom: 64px; }
+    .currentBodyRight .follow ul {
+      width: 100%;
+      clear: both;
+      float: none; }
+      .currentBodyRight .follow ul li {
+        float: left;
+        list-style: none;
+        padding-right: 20px; }
+        @media (max-width: 768px) {
+          .currentBodyRight .follow ul li {
+            width: 13.80208%; } }
+        @media (max-width: 768px) {
+          .currentBodyRight .follow ul li img {
+            width: 100%; } }
+
+@media (max-width: 768px) {
+  .jquery {
+    width: 83.98438%;
+    box-sizing: border-box;
+    padding: 0px 25px;
+    margin: 0 auto; }
+    .jquery h3 {
+      margin-bottom: 32px; }
+    .jquery ul {
+      padding-right: 0px;
+      float: none;
+      font-size: 1.3em; }
+    .jquery li {
+      width: 450px; } }
+
+.jquery h3 {
+  display: block;
+  color: #005288;
+  padding: 0px; }
+
+.jquery ul {
+  float: left;
+  color: #005288;
+  width: 27.34375%;
+  padding-right: 80px; }
+  .jquery ul li {
+    color: black;
+    list-style-image: url("../images/cudept/circle.png"); }

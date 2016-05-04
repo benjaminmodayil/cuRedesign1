@@ -1,0 +1,110 @@
+$xsmall: 320px
+$small: 768px
+$medium: 1024px
+$large: 1200px
+
+.clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+$pt: 'PT Sans', sans-serif
+
+$blue: #005288
+$darkBlue: #00375c
+$linkBlue: #0173bd
+$yellow: #fdb813
+$darkYellow: #d49600
+$textColor: #454545
+
+.list-col-1
+	float: left
+	width: percentage(980px/1280px)
+	list-style: none
+	padding-top: 30px
+	h1
+		color: $blue
+		font-size: 40px
+		margin-bottom: 10px
+		text-indent: 20px
+	.deptMajor
+		height: 300px
+	.yellowBar
+		background-color: $yellow
+		width: percentage(935px/980px)
+		height: 64px
+		margin-bottom: 15px
+
+		h2
+			display: inline-block
+			text-indent: 40px
+			color: $blue
+			font-size: 25px
+			padding-top: 10px
+		a
+			display: inline-block
+			text-decoration: none
+			background-color: $linkBlue
+			color: white
+			width: 130px
+			height: 50px
+			text-align: center
+			padding-top: 14px
+			float: right
+	.blueBar
+		width: percentage(935px/980px)
+		height: 64px
+		margin-bottom: 15px
+		background-color: $blue
+		h2
+			color: white
+			display: inline-block
+		a
+			background-color: $yellow
+			display: inline-block
+			text-decoration: none
+			color: white
+			width: 130px
+			height: 50px
+			text-align: center
+			padding-top: 14px
+			float: right
+
+
+	.major-col-1
+		float: left
+		width: 145px
+		margin-left: 100px
+		li
+			list-style: none
+			a
+				text-decoration: none
+
+	.minor-col-2
+		float: left
+		width: 150px
+		margin-left: 100px
+		li
+			list-style: none
+			a
+				text-decoration: none
+
+.list-col-2
+	float: left
+	width: 300px
+	background-color: $yellow
+	padding: 30px
+	ul
+		list-style: none
+		color: $blue
+		font-size: 25px
+		font-weight: bold
+
+		li
+			padding-bottom: 10px
+			font-size: 18px
+			a
+				text-decoration: none
+				font-weight: normal
+				color: $linkBlue

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Cedarville University: Be Bold
+		link(rel="stylesheet", type="text/css", href="css/style.css")
+	body
+		include header
+		.banner 
+			.leftButton
+			.rightButton
+
+		section.aboutUs
+			section.aboutTitle
+				h2 ABOUT CEDARVILLE UNIVERSITY
+			section.aboutBody
+				.left
+					blockquote "... for the Word of God and the testimony of Jesus Christ."
+					a(href="#").button.blueButton Learn More
+				.right
+					h3 What can you expect from Cedarville?
+					p Cedarville University offers many different majors for different fields:
+					ul
+						li Nursing
+						li Computer Science
+						li Worship
+						li History
+					ul
+						li Engineering
+						li Broadcasting
+						li Education
+						li Biology
+
+		section.gettingStarted
+			h2.gettingStartedTitle GETTING STARTED
+			section.gettingStartedBody
+				.columns
+					.landing-col-1
+						.individual
+							a(href="#"): img(src="images/culanding/first.png", alt="")
+							h4 What would you like to study?
+							p Here at Cedarville University, we are on the edge of education. Interested in Math? We got that. Interested in Web Design? We got that too! 
+					.landing-col-2
+						.individual
+							a(href="#"): img(src="images/culanding/second.png", alt="")
+							h4 How much will it cost?
+							p Don’t worry about the cost! Cedarville University provides numerous scholarship possibilities and has numerous student led jobs on campus to put some spending money in your pocket!
+					.landing-col-3
+						.individual
+							a(href="#"): img(src="images/culanding/third.png", alt="")
+							h4 Will we see you at CU?
+							p A bold, adventerous journey awaitsyou. Remember, it’s all for the “Word of God and the Testimony of Jesus Christ.”
+				a(href="#").button.boldButton BE BOLD AND APPLY NOW
+		section.campusNews
+			.campusTitle: h2 CAMPUS NEWS
+			.bannerNews
+			.otherArticles
+				.columns
+					.landing-col-1
+						.individual
+							img(src="images/culanding/music.png", alt="")
+							h4 International songwriting competition won
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
+					.landing-col-2
+						.individual
+							img(src="images/culanding/mdiv.png", alt="")
+							h4  New Masters Programs
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+					.landing-col-3
+						.individual
+							img(src="images/culanding/med.png", alt="")
+							h4 Pharmacy Students make news
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+				a(href="#").button Read More
+		include footer.jade

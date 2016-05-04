@@ -1,0 +1,289 @@
+$xsmall: 320px
+$small: 768px
+$medium: 1024px
+$large: 1200px
+
+$pt: 'PT Sans', sans-serif
+
+$blue: #005288
+$darkBlue: #00375c
+$linkBlue: #0173bd
+$yellow: #fdb813
+$darkYellow: #d49600
+$textColor: #454545
+
+
+.clearfix
+	&:after
+    		content: ""
+    		display: table
+    		clear: both
+.deptHeader
+	width: percentage(1280px / 1280px)
+	@extend .clearfix
+
+	.col-1
+		background-image: url('../images/cudept/theatre.png')
+		width: percentage(900px / 1280px)
+		background-size: contain
+		background-repeat: no-repeat
+		height: 0
+		padding-top: 24.7%
+		max-width: 100%
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			padding-top: 35%
+	.col-2.deptLink
+		width: percentage(295px / 1280px)
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			text-align: center
+		ul
+			text-decoration: none
+			color: $darkBlue
+			padding-left: 20px
+			margin-top: 20px
+			font-size: 25px
+			@media (max-width: $small)
+				width: 100%
+			li
+				color: $linkBlue
+				text-decoration: none
+				padding-left: 10px
+				list-style: none
+				font-size: 20px
+				@media (max-width: $small)
+					width: 100%
+
+.deptHeading
+	background-color: $yellow
+	width: percentage(550px / 1280px)
+	height: 130px
+	float: left
+	@extend .clearfix
+	@media (max-width: $small)
+		width: 100%
+	h2
+		padding-top: 25px
+		color: $blue
+		text-indent: 27px
+		@media (max-width: $small)
+			text-align: center
+
+.deptBodyLeft
+	@extend .clearfix
+	clear: both
+	float: left
+	width: percentage(570px/1280px)
+
+	@media (max-width: $small)
+		width: 100%
+		float: none
+
+	p
+		margin-top: 60px
+		margin-bottom: 40px
+		width: percentage(385px / 570px)
+		padding-left: 100px
+		float: left
+		// display: block
+	img
+		width: percentage(364px/570px)
+		padding-left: 100px
+.deptBodyRight
+	@extend .clearfix
+	float: right
+	width: percentage(706px / 1280px)
+	@media (max-width: $small)
+		width: 100%
+		float: none
+	// position: relative
+	// bottom: 100px
+	// margin-right: 210px
+	.events
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			float: none
+		margin-bottom: 140px
+		h3
+			display: block
+			color: $blue
+			padding: 0px
+			@media (max-width: $small)
+				margin-bottom: 50px
+		ul
+			margin-left: 100px
+			margin-bottom: 20px
+			float: left
+			color: $blue
+			@media (max-width: $small)
+				float: none
+			li
+				color: black
+				list-style-image: url('../images/cudept/circle.png')
+				@media (max-width: $small)
+					padding-bottom: 20px
+	.tour
+		clear: both
+		width: 100%
+		float: left
+		@media (max-width: $small)
+			width: 100%
+			float: none
+		.tourTitle
+			color: $blue
+			@media (max-width: $small)
+				h3
+					text-align: center
+		.row
+			width: 100%
+			@extend .clearfix
+			@media (max-width: $small)
+				width: 50%
+				margin: 0 auto
+
+			// .one, .two, .three
+			// 	width: 90%
+			// 	padding-right: 20px
+			// 	@media (max-width: $small)
+			// 		width: 200px
+			// 		margin: 0 auto
+			// 	// p
+			// 	//
+				img
+					float: left
+					width: 33%
+					@extend .clearfix
+
+					// @media (max-width: $small)
+					// 	width: 100%
+					// 	float: none
+					// 	margin: 0 auto
+			.one, .two, .three
+				padding-right: 20px
+
+				img
+					@media (max-width: $small)
+						width: 33%
+						float: none
+						margin: 0 auto
+
+			.one
+
+				float: left
+				@media (max-width: $small)
+					margin: 0 auto
+					img
+						width: 100%
+						float: none
+						margin: 0 auto
+						clear: both
+
+			.two
+				float: left
+				@media (max-width: $small)
+					margin: 0 auto
+					img
+						width: 100%
+						float: none
+						margin: 0 auto
+						clear: both
+			.three
+				float: left
+				@media (max-width: $small)
+					margin: 0 auto
+					img
+						width: 100%
+						float: none
+						margin: 0 auto
+						clear: both
+
+		.tourTitle
+			display: block
+			@media (max-width: $small)
+				margin: 0 auto
+
+				width: percentage(600px/768px)
+				h3
+					width: 100%
+
+			span
+				background-image: url('../images/cudept/tour.png')
+				width: 50px
+				height: 50px
+				display: inline-block
+				clear: both
+				background-size: cover
+				background-repeat: no-repeat
+				// @media (max-width: $small)
+
+			h3
+				width: percentage(400px / 1280px)
+				display: inline-block
+				clear: right
+				@media (max-width: $small)
+					width: percentage(400px / 780px)
+					margin: 0 auto 60px auto
+					display: inline-block
+.deptBodyLeft, .deptBodyRight
+	@extend .clearfix
+	margin-bottom: 65px
+.deptNews
+	width: 100%
+	margin: 0 auto
+	float: left
+	h3
+		color: $blue
+		text-indent: 27px
+		padding-bottom: 45px
+		@media(max-width: $small)
+			text-align: center
+	p
+		padding: 0px
+		margin: 0px auto
+		width: percentage(270px / 400px)
+	.one, .two, .three
+		text-align: center
+		width: percentage(400px/1280px)
+		float: left
+		margin-bottom: 150px
+		h4
+			color: $linkBlue
+	.one
+		@media (max-width: $small)
+			width: 100%
+	.two
+		@media (max-width: $small)
+			display: none
+	.three
+		@media (max-width: $small)
+			display: none
+		img
+			width: percentage( 277px / 400px)
+			@media (max-width: $small)
+				width: percentage(300px/400px)
+.deptLinks
+	width: percentage(295px / 1280px)
+	float: left
+	margin-bottom: 90px
+	@media (max-width: $small)
+		width: 100%
+		text-align: center
+	ul
+		text-decoration: none
+		color: $darkBlue
+		padding-left: 20px
+		font-size: 25px
+		@media (max-width: $small)
+			width: 100%
+		li
+			color: $linkBlue
+			text-decoration: none
+			padding-left: 10px
+			list-style: none
+			font-size: 20px
+			@media (max-width: $small)
+				width: 100%

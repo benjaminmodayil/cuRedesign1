@@ -1,0 +1,224 @@
+.clearfix:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.studentHeader {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .studentHeader .showSmall {
+      display: inline-block; } }
+  @media (max-width: 768px) {
+    .studentHeader .showSmall {
+      margin-top: 32px;
+      color: #005288; } }
+  @media (min-width: 1200px) {
+    .studentHeader .showSmall {
+      display: none; } }
+  @media (min-width: 768px) {
+    .studentHeader .hideSmall {
+      display: none; } }
+  .studentHeader .col-1 {
+    background-image: url("../images/cuStudent/worship.png");
+    width: 76.79688%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 26.9%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .studentHeader .col-1 {
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 35.2%;
+        margin-bottom: 100px; } }
+  .studentHeader .col-2 {
+    float: left;
+    width: 21.875%;
+    padding-left: 10px; }
+    @media (max-width: 768px) {
+      .studentHeader .col-2 {
+        display: none; } }
+    .studentHeader .col-2 ul {
+      text-decoration: none;
+      color: #00375c;
+      padding-left: 20px;
+      margin-top: 20px;
+      font-size: 25px; }
+      .studentHeader .col-2 ul li {
+        list-style: none; }
+        .studentHeader .col-2 ul li a {
+          color: #0173bd;
+          text-decoration: none;
+          padding-left: 10px;
+          font-size: 20px; }
+
+.lifeAtCu {
+  margin-top: 55px;
+  width: 100%; }
+  .lifeAtCu .col-1 {
+    float: left;
+    width: 50.39063%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .lifeAtCu .col-1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .lifeAtCu .col-1 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .lifeAtCu .col-1 h2 {
+      color: #005288; }
+    .lifeAtCu .col-1 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .lifeAtCu .col-1 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 27.73438%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block; }
+      @media (max-width: 768px) {
+        .lifeAtCu .col-1 a.button {
+          width: 33.20313%; } }
+  .lifeAtCu .col-2 {
+    background-image: url("../images/cuStudent/chapel.png");
+    width: 49.21875%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 25.9%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .lifeAtCu .col-2 {
+        width: 100%;
+        padding-top: 55%;
+        float: none;
+        clear: both; } }
+
+.equipping {
+  width: 100%; }
+  .equipping .col-1 {
+    margin: 0px;
+    width: 50%;
+    box-sizing: border-box;
+    background-image: url("../images/cuStudent/ville.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 25%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .equipping .col-1 {
+        width: 100%;
+        padding-top: 57%; } }
+  .equipping .col-2 {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .equipping .col-2 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .equipping .col-2 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .equipping .col-2 h2 {
+      color: #005288; }
+    .equipping .col-2 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .equipping .col-2 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 27.73438%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block; }
+      @media (max-width: 768px) {
+        .equipping .col-2 a.button {
+          width: 33.20313%; } }
+
+.ministries {
+  width: 100%;
+  margin-bottom: 62px; }
+  .ministries .col-1 {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .ministries .col-1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .ministries .col-1 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .ministries .col-1 h2 {
+      color: #005288; }
+    .ministries .col-1 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .ministries .col-1 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 29.58333%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block;
+      box-sizing: border-box; }
+      @media (max-width: 768px) {
+        .ministries .col-1 a.button {
+          width: 33.20313%; } }
+  .ministries .col-2 {
+    background-image: url("../images/cuStudent/africa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 21%;
+    max-width: 100%; }
+    @media (max-width: 768px) {
+      .ministries .col-2 {
+        padding-top: 30%;
+        float: none;
+        width: 100%; } }

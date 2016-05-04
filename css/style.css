@@ -1,0 +1,1397 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+html {
+  font-size: 100%; }
+  @media all and (min-width: 320px) {
+    html {
+      font-size: 106.25%; } }
+  @media all and (min-width: 768px) {
+    html {
+      font-size: 112.5%; } }
+  @media all and (min-width: 1024px) {
+    html {
+      font-size: 118.75%; } }
+  @media all and (min-width: 1200px) {
+    html {
+      font-size: 125%; } }
+
+h1 {
+  font-size: 1.61803rem;
+  line-height: 1; }
+  @media all and (min-width: 320px) {
+    h1 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 768px) {
+    h1 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 1024px) {
+    h1 {
+      font-size: 6.8541rem;
+      line-height: 1; } }
+  @media all and (min-width: 1200px) {
+    h1 {
+      font-size: 1.61803rem;
+      line-height: 1.3; } }
+
+h2 {
+  font-size: 1.61803rem;
+  line-height: 1; }
+  @media all and (min-width: 320px) {
+    h2 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 768px) {
+    h2 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 1024px) {
+    h2 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 1200px) {
+    h2 {
+      font-size: 1.61803rem;
+      line-height: 2; } }
+
+h3 {
+  font-size: 1.61803rem;
+  line-height: 1.2; }
+  @media all and (min-width: 320px) {
+    h3 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 768px) {
+    h3 {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 1200px) {
+    h3 {
+      font-size: 1.61803rem;
+      line-height: 1.3; } }
+
+p {
+  font-size: 1rem;
+  line-height: 1.2; }
+  @media all and (min-width: 320px) {
+    p {
+      font-size: 1rem;
+      line-height: 1; } }
+  @media all and (min-width: 768px) {
+    p {
+      font-size: 1rem;
+      line-height: 1; } }
+  @media all and (min-width: 1200px) {
+    p {
+      font-size: 1rem;
+      line-height: 1.3; } }
+
+blockquote {
+  font-size: 1.61803rem;
+  line-height: 1.2; }
+  @media all and (min-width: 320px) {
+    blockquote {
+      font-size: 1.61803rem;
+      line-height: 1.6; } }
+  @media all and (min-width: 768px) {
+    blockquote {
+      font-size: 1.61803rem;
+      line-height: 1.6; } }
+  @media all and (min-width: 1200px) {
+    blockquote {
+      font-size: 1.61803rem;
+      line-height: 1.3; } }
+
+.button {
+  font-size: 1.61803rem;
+  line-height: 1; }
+  @media all and (min-width: 320px) {
+    .button {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 768px) {
+    .button {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+  @media all and (min-width: 1200px) {
+    .button {
+      font-size: 1.61803rem;
+      line-height: 1; } }
+
+.clearfix:after, .deptHeader:after, .deptHeading:after, .deptBodyLeft:after, .deptBodyRight:after, .deptBodyRight .tour .row:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after, body .landingHeader:after, body .landingHeader .leftNav h1.cuLogo:after, body .aboutUs .aboutTitle h2:after, body .aboutUs .aboutBody:after, body .gettingStarted .gettingStartedBody:after, body .campusNews:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.deptHeader {
+  width: 100%; }
+  .deptHeader .col-1 {
+    background-image: url("../images/cudept/theatre.png");
+    width: 70.3125%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 24.7%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .deptHeader .col-1 {
+        width: 100%;
+        padding-top: 35%; } }
+  .deptHeader .col-2.deptLink {
+    width: 23.04688%;
+    float: left; }
+    @media (max-width: 768px) {
+      .deptHeader .col-2.deptLink {
+        width: 100%;
+        text-align: center; } }
+    .deptHeader .col-2.deptLink ul {
+      text-decoration: none;
+      color: #00375c;
+      padding-left: 20px;
+      margin-top: 20px;
+      font-size: 25px; }
+      @media (max-width: 768px) {
+        .deptHeader .col-2.deptLink ul {
+          width: 100%; } }
+      .deptHeader .col-2.deptLink ul li {
+        color: #0173bd;
+        text-decoration: none;
+        padding-left: 10px;
+        list-style: none;
+        font-size: 20px; }
+        @media (max-width: 768px) {
+          .deptHeader .col-2.deptLink ul li {
+            width: 100%; } }
+
+.deptHeading {
+  background-color: #fdb813;
+  width: 42.96875%;
+  height: 130px;
+  float: left; }
+  @media (max-width: 768px) {
+    .deptHeading {
+      width: 100%; } }
+  .deptHeading h2 {
+    padding-top: 25px;
+    color: #005288;
+    text-indent: 27px; }
+    @media (max-width: 768px) {
+      .deptHeading h2 {
+        text-align: center; } }
+
+.deptBodyLeft {
+  clear: both;
+  float: left;
+  width: 44.53125%; }
+  @media (max-width: 768px) {
+    .deptBodyLeft {
+      width: 100%;
+      float: none; } }
+  .deptBodyLeft p {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 67.54386%;
+    padding-left: 100px;
+    float: left; }
+  .deptBodyLeft img {
+    width: 63.85965%;
+    padding-left: 100px; }
+
+.deptBodyRight {
+  float: right;
+  width: 55.15625%; }
+  @media (max-width: 768px) {
+    .deptBodyRight {
+      width: 100%;
+      float: none; } }
+  .deptBodyRight .events {
+    float: left;
+    margin-bottom: 140px; }
+    @media (max-width: 768px) {
+      .deptBodyRight .events {
+        width: 100%;
+        float: none; } }
+    .deptBodyRight .events h3 {
+      display: block;
+      color: #005288;
+      padding: 0px; }
+      @media (max-width: 768px) {
+        .deptBodyRight .events h3 {
+          margin-bottom: 50px; } }
+    .deptBodyRight .events ul {
+      margin-left: 100px;
+      margin-bottom: 20px;
+      float: left;
+      color: #005288; }
+      @media (max-width: 768px) {
+        .deptBodyRight .events ul {
+          float: none; } }
+      .deptBodyRight .events ul li {
+        color: black;
+        list-style-image: url("../images/cudept/circle.png"); }
+        @media (max-width: 768px) {
+          .deptBodyRight .events ul li {
+            padding-bottom: 20px; } }
+  .deptBodyRight .tour {
+    clear: both;
+    width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .deptBodyRight .tour {
+        width: 100%;
+        float: none; } }
+    .deptBodyRight .tour .tourTitle {
+      color: #005288; }
+      @media (max-width: 768px) {
+        .deptBodyRight .tour .tourTitle h3 {
+          text-align: center; } }
+    .deptBodyRight .tour .row {
+      width: 100%; }
+      @media (max-width: 768px) {
+        .deptBodyRight .tour .row {
+          width: 50%;
+          margin: 0 auto; } }
+      .deptBodyRight .tour .row .one, .deptBodyRight .tour .row .two, .deptBodyRight .tour .row .three {
+        padding-right: 20px; }
+        @media (max-width: 768px) {
+          .deptBodyRight .tour .row .one img, .deptBodyRight .tour .row .two img, .deptBodyRight .tour .row .three img {
+            width: 33%;
+            float: none;
+            margin: 0 auto; } }
+      .deptBodyRight .tour .row .one {
+        float: left; }
+        @media (max-width: 768px) {
+          .deptBodyRight .tour .row .one {
+            margin: 0 auto; }
+            .deptBodyRight .tour .row .one img {
+              width: 100%;
+              float: none;
+              margin: 0 auto;
+              clear: both; } }
+      .deptBodyRight .tour .row .two {
+        float: left; }
+        @media (max-width: 768px) {
+          .deptBodyRight .tour .row .two {
+            margin: 0 auto; }
+            .deptBodyRight .tour .row .two img {
+              width: 100%;
+              float: none;
+              margin: 0 auto;
+              clear: both; } }
+      .deptBodyRight .tour .row .three {
+        float: left; }
+        @media (max-width: 768px) {
+          .deptBodyRight .tour .row .three {
+            margin: 0 auto; }
+            .deptBodyRight .tour .row .three img {
+              width: 100%;
+              float: none;
+              margin: 0 auto;
+              clear: both; } }
+    .deptBodyRight .tour .tourTitle {
+      display: block; }
+      @media (max-width: 768px) {
+        .deptBodyRight .tour .tourTitle {
+          margin: 0 auto;
+          width: 78.125%; }
+          .deptBodyRight .tour .tourTitle h3 {
+            width: 100%; } }
+      .deptBodyRight .tour .tourTitle span {
+        background-image: url("../images/cudept/tour.png");
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        clear: both;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .deptBodyRight .tour .tourTitle h3 {
+        width: 31.25%;
+        display: inline-block;
+        clear: right; }
+        @media (max-width: 768px) {
+          .deptBodyRight .tour .tourTitle h3 {
+            width: 51.28205%;
+            margin: 0 auto 60px auto;
+            display: inline-block; } }
+
+.deptBodyLeft, .deptBodyRight {
+  margin-bottom: 65px; }
+
+.deptNews {
+  width: 100%;
+  margin: 0 auto;
+  float: left; }
+  .deptNews h3 {
+    color: #005288;
+    text-indent: 27px;
+    padding-bottom: 45px; }
+    @media (max-width: 768px) {
+      .deptNews h3 {
+        text-align: center; } }
+  .deptNews p {
+    padding: 0px;
+    margin: 0px auto;
+    width: 67.5%; }
+  .deptNews .one, .deptNews .two, .deptNews .three {
+    text-align: center;
+    width: 31.25%;
+    float: left;
+    margin-bottom: 150px; }
+    .deptNews .one h4, .deptNews .two h4, .deptNews .three h4 {
+      color: #0173bd; }
+  @media (max-width: 768px) {
+    .deptNews .one {
+      width: 100%; } }
+  @media (max-width: 768px) {
+    .deptNews .two {
+      display: none; } }
+  @media (max-width: 768px) {
+    .deptNews .three {
+      display: none; } }
+  .deptNews .three img {
+    width: 69.25%; }
+    @media (max-width: 768px) {
+      .deptNews .three img {
+        width: 75%; } }
+
+.deptLinks {
+  width: 23.04688%;
+  float: left;
+  margin-bottom: 90px; }
+  @media (max-width: 768px) {
+    .deptLinks {
+      width: 100%;
+      text-align: center; } }
+  .deptLinks ul {
+    text-decoration: none;
+    color: #00375c;
+    padding-left: 20px;
+    font-size: 25px; }
+    @media (max-width: 768px) {
+      .deptLinks ul {
+        width: 100%; } }
+    .deptLinks ul li {
+      color: #0173bd;
+      text-decoration: none;
+      padding-left: 10px;
+      list-style: none;
+      font-size: 20px; }
+      @media (max-width: 768px) {
+        .deptLinks ul li {
+          width: 100%; } }
+
+.clearfix:after, .deptHeader:after, .deptHeading:after, .deptBodyLeft:after, .deptBodyRight:after, .deptBodyRight .tour .row:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after, body .landingHeader:after, body .landingHeader .leftNav h1.cuLogo:after, body .aboutUs .aboutTitle h2:after, body .aboutUs .aboutBody:after, body .gettingStarted .gettingStartedBody:after, body .campusNews:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.studentHeader {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .studentHeader .showSmall {
+      display: inline-block; } }
+  @media (max-width: 768px) {
+    .studentHeader .showSmall {
+      margin-top: 32px;
+      color: #005288; } }
+  @media (min-width: 1200px) {
+    .studentHeader .showSmall {
+      display: none; } }
+  @media (min-width: 768px) {
+    .studentHeader .hideSmall {
+      display: none; } }
+  .studentHeader .col-1 {
+    background-image: url("../images/cuStudent/worship.png");
+    width: 76.79688%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 26.9%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .studentHeader .col-1 {
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 35.2%;
+        margin-bottom: 100px; } }
+  .studentHeader .col-2 {
+    float: left;
+    width: 21.875%;
+    padding-left: 10px; }
+    @media (max-width: 768px) {
+      .studentHeader .col-2 {
+        display: none; } }
+    .studentHeader .col-2 ul {
+      text-decoration: none;
+      color: #00375c;
+      padding-left: 20px;
+      margin-top: 20px;
+      font-size: 25px; }
+      .studentHeader .col-2 ul li {
+        list-style: none; }
+        .studentHeader .col-2 ul li a {
+          color: #0173bd;
+          text-decoration: none;
+          padding-left: 10px;
+          font-size: 20px; }
+
+.lifeAtCu {
+  margin-top: 55px;
+  width: 100%; }
+  .lifeAtCu .col-1 {
+    float: left;
+    width: 50.39063%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .lifeAtCu .col-1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .lifeAtCu .col-1 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .lifeAtCu .col-1 h2 {
+      color: #005288; }
+    .lifeAtCu .col-1 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .lifeAtCu .col-1 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 27.73438%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block; }
+      @media (max-width: 768px) {
+        .lifeAtCu .col-1 a.button {
+          width: 33.20313%; } }
+  .lifeAtCu .col-2 {
+    background-image: url("../images/cuStudent/chapel.png");
+    width: 49.21875%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 25.9%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .lifeAtCu .col-2 {
+        width: 100%;
+        padding-top: 55%;
+        float: none;
+        clear: both; } }
+
+.equipping {
+  width: 100%; }
+  .equipping .col-1 {
+    margin: 0px;
+    width: 50%;
+    box-sizing: border-box;
+    background-image: url("../images/cuStudent/ville.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 25%;
+    max-width: 100%;
+    float: left; }
+    @media (max-width: 768px) {
+      .equipping .col-1 {
+        width: 100%;
+        padding-top: 57%; } }
+  .equipping .col-2 {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .equipping .col-2 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .equipping .col-2 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .equipping .col-2 h2 {
+      color: #005288; }
+    .equipping .col-2 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .equipping .col-2 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 27.73438%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block; }
+      @media (max-width: 768px) {
+        .equipping .col-2 a.button {
+          width: 33.20313%; } }
+
+.ministries {
+  width: 100%;
+  margin-bottom: 62px; }
+  .ministries .col-1 {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    box-sizing: border-box; }
+    @media (max-width: 768px) {
+      .ministries .col-1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        float: none;
+        clear: both; }
+        .ministries .col-1 p {
+          width: 100%;
+          padding: 0px;
+          margin: 0 auto; } }
+    .ministries .col-1 h2 {
+      color: #005288; }
+    .ministries .col-1 p {
+      width: 79.06977%;
+      padding: 0px; }
+    .ministries .col-1 a.button {
+      clear: both;
+      width: 100px;
+      background-color: #005288;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 29.58333%;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: inline-block;
+      box-sizing: border-box; }
+      @media (max-width: 768px) {
+        .ministries .col-1 a.button {
+          width: 33.20313%; } }
+  .ministries .col-2 {
+    background-image: url("../images/cuStudent/africa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 21%;
+    max-width: 100%; }
+    @media (max-width: 768px) {
+      .ministries .col-2 {
+        padding-top: 30%;
+        float: none;
+        width: 100%; } }
+
+.clearfix:after, .deptHeader:after, .deptHeading:after, .deptBodyLeft:after, .deptBodyRight:after, .deptBodyRight .tour .row:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after, body .landingHeader:after, body .landingHeader .leftNav h1.cuLogo:after, body .aboutUs .aboutTitle h2:after, body .aboutUs .aboutBody:after, body .gettingStarted .gettingStartedBody:after, body .campusNews:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.currentHeader {
+  width: 100%; }
+  .currentHeader .current-col-1 {
+    background-image: url("../images/cucurrent/heartsong.png");
+    width: 70.3125%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 24.4%;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left; }
+    @media (max-width: 768px) {
+      .currentHeader .current-col-1 {
+        padding-top: 50.4%;
+        clear: both;
+        width: 100%; } }
+  .currentHeader .current-col-2 {
+    width: 21.09375%;
+    float: left; }
+    @media (max-width: 768px) {
+      .currentHeader .current-col-2 {
+        width: 100%;
+        clear: left;
+        float: none;
+        background-color: #fdb813;
+        padding: 40px 0;
+        margin-bottom: 50px; } }
+    .currentHeader .current-col-2 ul {
+      text-decoration: none;
+      font-size: 1.4em;
+      color: #00375c;
+      padding-left: 20px;
+      margin-top: 20px; }
+      @media (max-width: 768px) {
+        .currentHeader .current-col-2 ul {
+          width: 100%;
+          text-align: center; } }
+      .currentHeader .current-col-2 ul li {
+        color: #0173bd;
+        text-decoration: none;
+        padding-left: 10px;
+        list-style: none;
+        font-size: 20px; }
+
+.currentBodyLeft {
+  clear: both;
+  float: left;
+  width: 42.1875%;
+  height: 100%;
+  background-color: #fdb813;
+  box-sizing: border-box;
+  padding-left: 40px; }
+  @media (max-width: 768px) {
+    .currentBodyLeft {
+      width: 100%;
+      padding-left: 0px; } }
+  .currentBodyLeft h2 {
+    color: #005288; }
+    @media (max-width: 768px) {
+      .currentBodyLeft h2 {
+        padding-left: 40px;
+        margin-top: 26px;
+        margin-bottom: 40px; }
+        .currentBodyLeft h2 ~ h2 {
+          display: none; } }
+  .currentBodyLeft p {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 440px;
+    padding-left: 100px;
+    float: left; }
+  .currentBodyLeft img {
+    padding-left: none; }
+    @media (max-width: 768px) {
+      .currentBodyLeft img {
+        width: 85%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px; } }
+  .currentBodyLeft ul {
+    text-decoration: none;
+    list-style: none; }
+    @media (max-width: 768px) {
+      .currentBodyLeft ul {
+        display: none; } }
+    .currentBodyLeft ul a {
+      text-decoration: none; }
+
+.currentBodyRight {
+  float: right;
+  width: 54.6875%;
+  box-sizing: border-box;
+  padding-left: 50px; }
+  @media (max-width: 768px) {
+    .currentBodyRight {
+      width: 100%; } }
+  .currentBodyRight .events {
+    margin-top: 40px;
+    float: left;
+    margin-bottom: 68px; }
+    .currentBodyRight .events h3 {
+      display: block;
+      color: #005288;
+      padding: 0px; }
+    .currentBodyRight .events ul {
+      float: left;
+      color: #005288;
+      width: 27.34375%;
+      padding-right: 80px; }
+      .currentBodyRight .events ul li {
+        color: black;
+        list-style-image: url("../images/cudept/circle.png"); }
+  .currentBodyRight .otherLinks {
+    clear: both;
+    width: 100%; }
+    @media (max-width: 768px) {
+      .currentBodyRight .otherLinks {
+        margin-top: 78px;
+        margin-bottom: 120px; }
+        .currentBodyRight .otherLinks :nth-child(2) {
+          display: none; }
+        .currentBodyRight .otherLinks :nth-child(3) {
+          display: none; } }
+    .currentBodyRight .otherLinks ul.sectionLists {
+      color: #005288;
+      float: left;
+      width: 19.53125%; }
+      @media (max-width: 768px) {
+        .currentBodyRight .otherLinks ul.sectionLists {
+          width: 100%; } }
+      .currentBodyRight .otherLinks ul.sectionLists li {
+        list-style: none;
+        width: 7.8125%; }
+        .currentBodyRight .otherLinks ul.sectionLists li a {
+          text-decoration: none;
+          color: #0173bd; }
+  .currentBodyRight .follow {
+    margin-top: 300px;
+    float: none;
+    clear: both; }
+    @media (max-width: 768px) {
+      .currentBodyRight .follow {
+        width: 100%;
+        margin-bottom: 38px; } }
+    .currentBodyRight .follow p {
+      color: #005288;
+      margin-bottom: 64px; }
+    .currentBodyRight .follow ul {
+      width: 100%;
+      clear: both;
+      float: none; }
+      .currentBodyRight .follow ul li {
+        float: left;
+        list-style: none;
+        padding-right: 20px; }
+        @media (max-width: 768px) {
+          .currentBodyRight .follow ul li {
+            width: 13.80208%; } }
+        @media (max-width: 768px) {
+          .currentBodyRight .follow ul li img {
+            width: 100%; } }
+
+@media (max-width: 768px) {
+  .jquery {
+    width: 83.98438%;
+    box-sizing: border-box;
+    padding: 0px 25px;
+    margin: 0 auto; }
+    .jquery h3 {
+      margin-bottom: 32px; }
+    .jquery ul {
+      padding-right: 0px;
+      float: none;
+      font-size: 1.3em; }
+    .jquery li {
+      width: 450px; } }
+
+.jquery h3 {
+  display: block;
+  color: #005288;
+  padding: 0px; }
+
+.jquery ul {
+  float: left;
+  color: #005288;
+  width: 27.34375%;
+  padding-right: 80px; }
+  .jquery ul li {
+    color: black;
+    list-style-image: url("../images/cudept/circle.png"); }
+
+.clearfix:after, .deptHeader:after, .deptHeading:after, .deptBodyLeft:after, .deptBodyRight:after, .deptBodyRight .tour .row:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after, body .landingHeader:after, body .landingHeader .leftNav h1.cuLogo:after, body .aboutUs .aboutTitle h2:after, body .aboutUs .aboutBody:after, body .gettingStarted .gettingStartedBody:after, body .campusNews:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.list-col-1 {
+  float: left;
+  width: 76.5625%;
+  list-style: none;
+  padding-top: 30px; }
+  .list-col-1 h1 {
+    color: #005288;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-indent: 20px; }
+  .list-col-1 .deptMajor {
+    height: 300px; }
+  .list-col-1 .yellowBar {
+    background-color: #fdb813;
+    width: 95.40816%;
+    height: 64px;
+    margin-bottom: 15px; }
+    .list-col-1 .yellowBar h2 {
+      display: inline-block;
+      text-indent: 40px;
+      color: #005288;
+      font-size: 25px;
+      padding-top: 10px; }
+    .list-col-1 .yellowBar a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #0173bd;
+      color: white;
+      width: 130px;
+      height: 50px;
+      text-align: center;
+      padding-top: 14px;
+      float: right; }
+  .list-col-1 .blueBar {
+    width: 95.40816%;
+    height: 64px;
+    margin-bottom: 15px;
+    background-color: #005288; }
+    .list-col-1 .blueBar h2 {
+      color: white;
+      display: inline-block; }
+    .list-col-1 .blueBar a {
+      background-color: #fdb813;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      width: 130px;
+      height: 50px;
+      text-align: center;
+      padding-top: 14px;
+      float: right; }
+  .list-col-1 .major-col-1 {
+    float: left;
+    width: 145px;
+    margin-left: 100px; }
+    .list-col-1 .major-col-1 li {
+      list-style: none; }
+      .list-col-1 .major-col-1 li a {
+        text-decoration: none; }
+  .list-col-1 .minor-col-2 {
+    float: left;
+    width: 150px;
+    margin-left: 100px; }
+    .list-col-1 .minor-col-2 li {
+      list-style: none; }
+      .list-col-1 .minor-col-2 li a {
+        text-decoration: none; }
+
+.list-col-2 {
+  float: left;
+  width: 300px;
+  background-color: #fdb813;
+  padding: 30px; }
+  .list-col-2 ul {
+    list-style: none;
+    color: #005288;
+    font-size: 25px;
+    font-weight: bold; }
+    .list-col-2 ul li {
+      padding-bottom: 10px;
+      font-size: 18px; }
+      .list-col-2 ul li a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #0173bd; }
+
+/*! Pushy - v1.0.0 - 2016-3-1
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.pushy {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  background: #a97701;
+  overflow: auto;
+  visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* enables momentum scrolling in iOS overflow elements */ }
+
+.pushy a {
+  display: block;
+  color: #b3b3b1;
+  padding: 15px 30px;
+  text-decoration: none;
+  outline: 0; }
+
+.pushy a:hover {
+  color: #FFF; }
+
+.pushy ul:first-child {
+  margin-top: 10px; }
+
+.pushy.pushy-left {
+  left: 0; }
+
+.pushy.pushy-right {
+  right: 0; }
+
+/* Menu Movement */
+.pushy-left {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.pushy-open-left #container,
+.pushy-open-left .push {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+
+.pushy-right {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+
+.pushy-open-right #container,
+.pushy-open-right .push {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.pushy-open-left .pushy,
+.pushy-open-right .pushy {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* Menu Transitions */
+#container,
+.pushy,
+.push {
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
+
+/* Site Overlay */
+.site-overlay {
+  display: none; }
+
+.pushy-open-left .site-overlay,
+.pushy-open-right .site-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms; }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* Submenu Appearance */
+.pushy-submenu {
+  /* Submenu Icon */ }
+
+.pushy-submenu ul {
+  padding-left: 15px;
+  transition: max-height 0.2s ease-in-out; }
+
+.pushy-submenu ul .pushy-link {
+  transition: opacity 0.2s ease-in-out; }
+
+.pushy-submenu > a {
+  position: relative; }
+
+.pushy-submenu > a::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url("../img/arrow.svg") no-repeat;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: transform 0.2s; }
+
+/* Submenu Movement */
+.pushy-submenu-closed ul {
+  max-height: 0;
+  overflow: hidden; }
+
+.pushy-submenu-closed .pushy-link {
+  opacity: 0; }
+
+.pushy-submenu-open {
+  /* Submenu Icon */ }
+
+.pushy-submenu-open ul {
+  max-height: 1000px; }
+
+.pushy-submenu-open .pushy-link {
+  opacity: 1; }
+
+.pushy-submenu-open a::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg); }
+
+.no-csstransforms3d .pushy-submenu-closed ul {
+  max-height: none;
+  display: none; }
+
+.clearfix:after, .deptHeader:after, .deptHeading:after, .deptBodyLeft:after, .deptBodyRight:after, .deptBodyRight .tour .row:after, .studentHeader:after, .lifeAtCu:after, .equipping:after, .ministries:after, .currentBodyLeft:after, .currentBodyRight .follow ul:after, .jquery:after, body .landingHeader:after, body .landingHeader .leftNav h1.cuLogo:after, body .aboutUs .aboutTitle h2:after, body .aboutUs .aboutBody:after, body .gettingStarted .gettingStartedBody:after, body .campusNews:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.backgroundImageFix {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 66.64%;
+  /* (img-height / img-width * container-width) */
+  /* (853 / 1280 * 100) */ }
+
+* {
+  margin: 0;
+  padding: 0; }
+  * a {
+    text-decoration: none; }
+
+html {
+  width: 100%; }
+
+body {
+  width: 100%;
+  font-family: "PT Sans", sans-serif; }
+  body .landingHeader {
+    width: 100%; }
+    @media (max-width: 768px) {
+      body .landingHeader {
+        background-color: #00375c; } }
+    body .landingHeader .leftNav {
+      float: left;
+      width: 37.5%; }
+      body .landingHeader .leftNav .menu-btn {
+        display: none; }
+        @media (max-width: 768px) {
+          body .landingHeader .leftNav .menu-btn {
+            display: inline-block;
+            float: left;
+            color: white;
+            font-size: 2.5em;
+            vertical-align: baseline;
+            padding-top: 8px; } }
+      body .landingHeader .leftNav .pushy-link {
+        font-size: 1.8em;
+        text-align: center; }
+        body .landingHeader .leftNav .pushy-link li {
+          border-bottom: 1px solid black; }
+        @media (max-width: 768px) {
+          body .landingHeader .leftNav .pushy-link {
+            width: 100%; } }
+      body .landingHeader .leftNav #menu img {
+        display: none;
+        width: 10.41667%; }
+        @media (max-width: 768px) {
+          body .landingHeader .leftNav #menu img {
+            display: inline-block;
+            float: left;
+            width: 13.02083%; } }
+      body .landingHeader .leftNav h1.cuLogo {
+        background-image: url("../images/culanding/cuLogoColor.png");
+        background-size: contain;
+        width: 83.33333333333333%;
+        padding-right: 80px;
+        box-sizing: border-box;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 0;
+        padding-top: 20.83333333333333%;
+        max-width: 100%; }
+        @media (max-width: 768px) {
+          body .landingHeader .leftNav h1.cuLogo {
+            padding-top: 8.83333333333333%;
+            float: left;
+            width: 40%;
+            margin: 20px 19.01042%;
+            display: inline-block;
+            background-image: url("../images/cuLanding/culogosmall.png"); } }
+      body .landingHeader .leftNav small.motto {
+        width: 83.33333333333333%;
+        text-align: center;
+        color: #005288;
+        display: block; }
+        @media (max-width: 768px) {
+          body .landingHeader .leftNav small.motto {
+            display: none;
+            width: 0px;
+            height: 0px; } }
+    body .landingHeader .rightNav {
+      float: right;
+      width: 59.375%; }
+      @media (max-width: 768px) {
+        body .landingHeader .rightNav {
+          display: none;
+          width: 0;
+          height: 0; } }
+      body .landingHeader .rightNav .navTop {
+        display: inline-block;
+        float: right;
+        padding: 20px 0px 20px 8px;
+        clear: both;
+        width: 39.47368%; }
+        body .landingHeader .rightNav .navTop li {
+          float: left;
+          text-decoration: none;
+          list-style: none;
+          padding-right: 8px;
+          padding-left: 3px;
+          border-right: 2px solid #fdb813;
+          box-sizing: border-box; }
+          body .landingHeader .rightNav .navTop li a {
+            color: #005288;
+            text-decoration: none; }
+      body .landingHeader .rightNav .navBottom {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        clear: both; }
+        body .landingHeader .rightNav .navBottom li {
+          float: right;
+          text-decoration: none;
+          list-style: none;
+          width: 18%;
+          background-color: #00375c;
+          color: white;
+          padding: 2%; }
+  body .banner {
+    float: left;
+    width: 100%;
+    background-image: url("../images/culanding/art.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 100%;
+    background-size: contain;
+      background-size-background-repeat: no-repeat;
+      background-size-width: 100%;
+      background-size-height: 0;
+    padding-top: 34.921875%; }
+  body .aboutUs {
+    width: 100%;
+    clear: left; }
+    body .aboutUs .aboutTitle {
+      background-color: #d49600;
+      color: white;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 10px; }
+    body .aboutUs .aboutBody {
+      background-color: #fdb813;
+      color: white;
+      padding: 5% 2%;
+      background-image: url("../images/culanding/bg2.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: soft-light; }
+      body .aboutUs .aboutBody h3 {
+        text-decoration: underline;
+        margin-bottom: 10px; }
+      body .aboutUs .aboutBody .left {
+        width: 39.0625%;
+        float: left;
+        margin-right: 80px; }
+        @media (max-width: 768px) {
+          body .aboutUs .aboutBody .left {
+            width: 100%; } }
+        body .aboutUs .aboutBody .left blockquote {
+          font-style: italic;
+          font-weight: bold;
+          margin-bottom: 100px; }
+          @media (max-width: 768px) {
+            body .aboutUs .aboutBody .left blockquote {
+              width: 100%;
+              text-align: center; } }
+        body .aboutUs .aboutBody .left .blueButton {
+          color: white;
+          text-decoration: none;
+          background-color: #0173bd;
+          padding: 20px 35px;
+          border-radius: 8px; }
+          @media (max-width: 768px) {
+            body .aboutUs .aboutBody .left .blueButton {
+              display: none; } }
+      body .aboutUs .aboutBody .right {
+        width: 45.3125%;
+        float: left; }
+        @media (max-width: 768px) {
+          body .aboutUs .aboutBody .right {
+            width: 100%;
+            text-align: center; } }
+        body .aboutUs .aboutBody .right ul {
+          float: right;
+          width: 80%;
+          margin: 0 5%; }
+          @media (max-width: 768px) {
+            body .aboutUs .aboutBody .right ul {
+              float: none;
+              margin: 0 auto;
+              width: 100%; } }
+          body .aboutUs .aboutBody .right ul li {
+            width: 100%;
+            text-align: left;
+            list-style: none; }
+            @media (max-width: 768px) {
+              body .aboutUs .aboutBody .right ul li {
+                width: 100%;
+                margin: 0px;
+                text-align: center; } }
+  body .gettingStarted .gettingStartedTitle {
+    width: 100%;
+    padding-top: 40px;
+    background-color: #00375c;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px; }
+  body .gettingStarted .gettingStartedBody {
+    background-image: url("../images/culanding/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    padding-top: 20px;
+    width: 100%;
+    background-color: #005288;
+    color: white; }
+    body .gettingStarted .gettingStartedBody .landing-col-1, body .gettingStarted .gettingStartedBody .landing-col-2, body .gettingStarted .gettingStartedBody .landing-col-3 {
+      margin: 0 auto 60px auto;
+      width: 33%;
+      float: left; }
+      @media (max-width: 768px) {
+        body .gettingStarted .gettingStartedBody .landing-col-1, body .gettingStarted .gettingStartedBody .landing-col-2, body .gettingStarted .gettingStartedBody .landing-col-3 {
+          width: 80%;
+          float: none;
+          margin: 0 auto 100px auto; } }
+      body .gettingStarted .gettingStartedBody .landing-col-1 .individual, body .gettingStarted .gettingStartedBody .landing-col-2 .individual, body .gettingStarted .gettingStartedBody .landing-col-3 .individual {
+        width: 66.79688%;
+        margin: 0px auto; }
+        body .gettingStarted .gettingStartedBody .landing-col-1 .individual img, body .gettingStarted .gettingStartedBody .landing-col-2 .individual img, body .gettingStarted .gettingStartedBody .landing-col-3 .individual img {
+          margin: 0 auto;
+          display: block;
+          float: none;
+          width: 70.17544%;
+          max-width: 100%; }
+      body .gettingStarted .gettingStartedBody .landing-col-1 h4, body .gettingStarted .gettingStartedBody .landing-col-2 h4, body .gettingStarted .gettingStartedBody .landing-col-3 h4 {
+        text-align: center;
+        padding: 20px 0px 20px 0px; }
+      body .gettingStarted .gettingStartedBody .landing-col-1 p, body .gettingStarted .gettingStartedBody .landing-col-2 p, body .gettingStarted .gettingStartedBody .landing-col-3 p {
+        text-align: center; }
+    body .gettingStarted .gettingStartedBody .boldButton {
+      background-color: #fdb813;
+      color: white;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding: 28px 0px;
+      border-radius: 10px;
+      width: 35.15625%;
+      margin: 0 auto 32px auto;
+      clear: both;
+      font-weight: bold;
+      font-size: 1.2em; }
+      @media (max-width: 768px) {
+        body .gettingStarted .gettingStartedBody .boldButton {
+          width: 70%;
+          font-size: 1.2em; } }
+  body .campusNews {
+    width: 100%;
+    margin-bottom: 120px; }
+    body .campusNews .campusTitle {
+      color: #005288;
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      text-align: center; }
+    body .campusNews .bannerNews {
+      background-image: url("../images/culanding/bottomBanner.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      max-width: 100%;
+      background-size: contain;
+        background-size-background-repeat: no-repeat;
+        background-size-width: 100%;
+      padding-top: 34.921875%; }
+    body .campusNews .otherArticles {
+      width: 100%;
+      padding-top: 40px; }
+      body .campusNews .otherArticles .landing-col-1, body .campusNews .otherArticles .landing-col-2, body .campusNews .otherArticles .landing-col-3 {
+        margin: 0 auto 34px auto;
+        width: 33%;
+        float: left; }
+        @media (max-width: 768px) {
+          body .campusNews .otherArticles .landing-col-1, body .campusNews .otherArticles .landing-col-2, body .campusNews .otherArticles .landing-col-3 {
+            width: 80%;
+            float: none;
+            margin: 0 auto 100px auto; } }
+        body .campusNews .otherArticles .landing-col-1 .individual, body .campusNews .otherArticles .landing-col-2 .individual, body .campusNews .otherArticles .landing-col-3 .individual {
+          width: 285px;
+          margin: 0px auto; }
+          body .campusNews .otherArticles .landing-col-1 .individual img, body .campusNews .otherArticles .landing-col-2 .individual img, body .campusNews .otherArticles .landing-col-3 .individual img {
+            margin: 0 auto;
+            display: block;
+            float: none; }
+        body .campusNews .otherArticles .landing-col-1 h4, body .campusNews .otherArticles .landing-col-2 h4, body .campusNews .otherArticles .landing-col-3 h4 {
+          text-align: center;
+          padding: 20px 0px 20px 0px;
+          color: #0173bd; }
+        body .campusNews .otherArticles .landing-col-1 p, body .campusNews .otherArticles .landing-col-2 p, body .campusNews .otherArticles .landing-col-3 p {
+          text-align: center; }
+      body .campusNews .otherArticles a {
+        background-color: #0173bd;
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        width: 19.14063%;
+        margin-left: 70px;
+        clear: both;
+        border-radius: 8px; }
+        @media (max-width: 768px) {
+          body .campusNews .otherArticles a {
+            width: 60%;
+            font-size: 1.3em;
+            margin: 0 auto; } }
+  body footer {
+    display: block;
+    background-color: #005288;
+    float: left;
+    width: 100%; }
+    @media (max-width: 768px) {
+      body footer {
+        padding-top: 33px;
+        padding-bottom: 33px; } }
+    body footer ul {
+      float: left;
+      color: white;
+      padding: 10px; }
+      @media (max-width: 768px) {
+        body footer ul {
+          width: 100%; } }
+      body footer ul li {
+        list-style: none; }
+        body footer ul li a {
+          color: white; }
